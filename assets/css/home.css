@@ -1,0 +1,39 @@
+body{
+    margin:0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* styling the scrollbar  */
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #579aff; 
+    border-radius: 10px;
+    height: 10px;
+}
+
+
+.contactList{
+    height: 97vh;
+    margin: 10px;
+    padding: 5px;
+}
+
+.contactList > div{
+    padding: 10px;
+}
+
+
+.inputForm{
+    width: 35%;
+}
+
+.listContainer{
+    width: 64%;
+}
+
+
